@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    background: white;
+
+}
+
+.incopy input{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.main{
+    margin: auto;
+    background: linear-gradient(45deg, orange , orangered );
+    width: 350px;
+    height: 450px;
+    margin-top: 150px;
+    padding: 20px;
+    border-radius: 60px  45px;
+    box-shadow: 0px 1px 5px black;
+    box-sizing: content-box;
+}
+
+.main h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.main p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.incopy{
+    background-color: white;
+    margin-top: 30px;
+    height: 90px;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0px 1px 2px black;
+    padding:  3px 15px;
+}
+
+.incopy input{
+    width: 80%;
+    border: none;
+    outline: 0;
+   margin-top: 10px;
+    height: 70px;
+}
+
+.incopy h4{
+    /* width: 30px;
+    margin-left: 20px;
+    height: 40px; */
+    font-family: sans-serif;
+    line-height: 95px;
+    font-size: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.main button img{
+    width: 25px;
+    height: 25px;
+    line-height: 70px;
+    margin-right: 20px;
+}
+
+.main button{
+    padding: 15px ;
+    width: 100%;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    margin-right: auto;
+    background: linear-gradient(45deg, orangered , orange );
+    border-radius: 20px;
+    margin-left: auto;
+    cursor: pointer;
+    height: 70px;
+    margin-top: 20px;
+}
